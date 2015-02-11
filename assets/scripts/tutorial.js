@@ -228,7 +228,7 @@ function tutorial_init_pre() {
     title:    "Landing, part 1",
     text:     ["You can land a plane with the &lsquo;land&rsquo; command, followed by a runway",
                "name. Before you can land a plane, though, it must be facing the runway, not be offset",
-               "from it horizontally more than about 20 degrees, and be at about five to six thousand",
+               "from it horizontally more than about 20 degrees, and be at about six to seven thousand",
                "feet altitude. Since it takes a while for aircraft to turn, you can reduce the speed with",
                "the &lsquo;speed&rsquo; or &lsquo;slow&rsquo; command (example: &lsquo;{CALLSIGN} speed 200&rsquo;)",
                "to give yourself a bit more time."
@@ -270,8 +270,9 @@ function tutorial_init_pre() {
   tutorial_step({
     title:    "Wind sock",
     text:     ["In the lower right corner of the map is a small circle with a line; the line shows the direction",
-               "the wind is coming from. If it&rsquo;s pointing straight up, the wind is blowing from the North",
-               "to the South. Aircraft are assigned to different takeoff runways accordingly."
+               "the wind is going to. If it&rsquo;s pointing straight down, the wind is blowing from the North",
+               "to the South. Aircraft are assigned to different takeoff runways accordingly. If it is shown in",
+               "red, the wind is two times stronger.",
                ].join(" "),
     parse:    function(t) {
       return t.replace("{CALLSIGN}", prop.aircraft.list[0].getCallsign());
