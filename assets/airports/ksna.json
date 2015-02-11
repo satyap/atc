@@ -2,7 +2,7 @@
   "name": "John Wayne Orange-County/Santa Ana Airport",
   "level": "medium",
   "radio": "John Wayne",
-  "icao" "KSNA"
+  "icao": "KSNA",
   "wind": {     
     "angle": 220, 
     "speed": 6  
@@ -41,7 +41,7 @@
       "length":      5.563,                
       "delay":       [2.5, 2.5],           
       "ils":         [true, false]     
-    }
+    },
     {
       "name":        ["20L", "2R"],     
       "name_offset": [[0.8, -0.2], [1.6, 0.4]], 
@@ -56,7 +56,7 @@
     "airlines": [
       ["UAL", 3],
       ["AAL", 8],
-      ["Cessna", 5]
+      ["Cessna", 5],
       ["AWE", 7]
     ],
     "frequency": [0.5, 3.5] 
@@ -67,66 +67,66 @@
       "airlines": [
         ["ual", 9],
         ["aal", 8],
-        ["cessna", 4]
+        ["cessna", 4],
         ["awe", 9]
       ],
       "frequency": [4, 7],
       "altitude": [4000, 9500]
-    }
+    },
     {
       "heading":  360,           
       "airlines": [
         ["ual", 10],
         ["aal", 3],
-        ["cessna", 11]
+        ["cessna", 11],
         ["awe", 4]
       ],
       "frequency": [4, 7],
       "altitude": [4000, 9500]
-    }
+    },
     {
       "heading":  345,           
       "airlines": [
         ["ual", 11],
         ["aal", 4],
-        ["cessna", 6]
+        ["cessna", 6],
         ["awe", 3]
       ],
       "frequency": [4, 7],
       "altitude": [4000, 9500]
-    }
+    },
     {
       "heading":  270,           
       "airlines": [
         ["ual", 10],
         ["aal", 8],
-        ["cessna", 12]
+        ["cessna", 12],
         ["awe", 9]
       ],
       "frequency": [1, 2],      
       "altitude": [4000, 9500]  
-    }
+    },
     {
       "heading":  210,           
       "airlines": [
         ["ual", 5],
         ["aal", 9],
-        ["cessna", 7]
+        ["cessna", 7],
         ["awe", 9]
       ],
       "frequency": [2, 5],      
       "altitude": [4000, 9500]  
-    }
+    },
     {
       "heading":  315,           
       "airlines": [
         ["ual", 8],
         ["aal", 8],
-        ["cessna", 7]
+        ["cessna", 7],
         ["awe", 9]
       ],
       "frequency": [2, 4],
       "altitude": [4000, 9500] 
-    },
+    }
   ]
 }
