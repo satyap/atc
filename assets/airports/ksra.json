@@ -1,8 +1,9 @@
 {
-  "name": "Single runway airport",
+  "name": "Single runway airport (WIP)",
   "level": "medium",
   "radio": "Sirra",
   "icao": "KSRA",
+  "ctr_radius": 80,
   "wind": {
     "angle": 90,
     "speed": 5

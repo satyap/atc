@@ -1,7 +1,7 @@
 
 function ui_init_pre() {
   prop.ui = {};
-  prop.ui.scale_default = 5; // pixels per km
+  prop.ui.scale_default = 8; // pixels per km
   prop.ui.scale         = prop.ui.scale_default;
 
   if('atc-scale' in localStorage) prop.ui.scale = localStorage['atc-scale'];
@@ -33,6 +33,10 @@ function ui_init() {
 
   $(".fast-forwards").click(function() {
     game_timewarp_toggle();
+  });
+
+  $(".speech-toggle").click(function() {
+    speech_toggle();
   });
 
   $(".switch-airport").click(function() {
@@ -105,6 +109,9 @@ function ui_log(message) {
       html.remove();
     }, 10000);
   }, 3, window, html);
+
+  speech_say(message);
+
 //  console.log("MESSAGE: " + message);
 }
 
